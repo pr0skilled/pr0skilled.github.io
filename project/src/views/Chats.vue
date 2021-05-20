@@ -66,7 +66,7 @@
           <div class="msg_history">
               <div v-for="message in me.currentRoom.lastMessages" v-bind:key="message.id">
             <div class="incoming_msg" v-if="message.author.username!=username">
-              <div class="incoming_msg_img"> <img src="https://ltdfoto.ru/images/123.png" alt="sunil"> </div>
+              <div class="incoming_msg_img"> <img src="https://loremflickr.com/520/520/cat" alt="sunil"> </div>
               <div class="received_msg">
                 <div class="received_withd_msg">
                   <p>{{message.text}}</p>
